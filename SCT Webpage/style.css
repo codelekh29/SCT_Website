@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+}
+.main-container{
+        height: 50%;
+        width: 100%;
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+
+#cards{
+        width:100%;
+        position: relative;
+        background: 
+          linear-gradient(
+            rgba(3, 23, 59, 0.45), 
+            rgba(6, 7, 7, 0.45)
+          ),
+          url("./img/campus.jpg") no-repeat fixed 100%;
+        background-size: cover;
+        background-position: center;
+        padding-top: 20% ;
+        padding-bottom: 20% ;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1px;
+        color: #f2f2f2;
+        text-align: center;
+        text-transform: uppercase;
+      } 
+/**/
+.image{
+  padding-top:30px ;
+}
+#footer{
+  width:100%;
+  position: relative;
+  background: 
+    linear-gradient(
+      rgba(3, 23, 59, 0.45), 
+      rgba(0, 132, 255, 0.45)
+    ),
+    url("./img/FooterLogo.jpg") no-repeat;
+  background-size: cover;
+  color: #ffe066;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.links-footer{
+position: relative;
+
+
+}
+.links-footer ul li a {
+color: rgb(10, 74, 134);
+padding: 5px;
+
+}
+.links-footer ul li{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  display: inline-block;
+  margin: 20px;	
+  list-style: none;
+  padding: 10px 8px;
+  border-radius: 50px;
+  background-color: #ffe066;
+}
+.links-footer ul li:hover{  
+  background-color:navy ;
+  box-shadow: 0 10px 8px -8px navy;
+  transition: 0.4s;
+  transform: translate(0, -8px);
+}
+.links-footer ul li a:hover {
+  color: #ffe066;
+}
+
+/*Media Queries*/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  border: none;
+  outline: none;
+  background-color: #ffe066;
+  color: navy;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  transition: none;
+}
+
+#myBtn:hover {
+  background-color: navy;
+  color: #ffe066;
+}
+#Copyright{
+  text-align: center;
+  bottom: 0;
+  font-size: 1em;
+}
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+.nav-item{
+    color: #ffe066;
+    background-color: grenn ;
+}
+.nav-item:hover{
+    color: #f2f2f2;
+}
+.nav-link{
+  display: block;
+  font-size: 25px;
+  border-right: 1px solid #335c67;
+  background-color: #008000;
+  
+}
+.navbar{
+   padding-top: 0;
+   padding-bottom: 0;
+}
+.nav-link:hover{
+    background-color: #f2f2f2d5;
+    color: black;
+}
